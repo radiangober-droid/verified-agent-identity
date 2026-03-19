@@ -1,0 +1,9 @@
+{
+  "name": "radiangober-droid",
+  "description": "Billions Verified Identity",
+  "github": "https://github.com/radiangober-droid",
+  "agent": {
+    "name": "radiangober-droid",
+    "type": "human"
+  }
+}
