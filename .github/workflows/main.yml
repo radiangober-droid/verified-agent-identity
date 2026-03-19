@@ -16,6 +16,12 @@ jobs:
         with:
           node-version: '18'
 
+      - name: Install ClawHub
+        run: npm install -g clawhub
+
+      - name: Install skill
+        run: clawhub install verified-agent-identity
+
       - name: Install dependencies
         run: |
           cd scripts
